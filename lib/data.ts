@@ -35,29 +35,29 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Graduated ORT Technical High School",
+    location: "Buenos Aires, Argentina",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated with a specialization in Information Technology and Communications.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2018",
+  },  
+  {
+    title: "Bachelor's Degree in Computer Science",
+    location: "Buenos Aires, Argentina",
+    description:
+      "I completed my Bachelor's degree in Computer Science.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2024",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Full Stack Developer at Koibanx",
+    location: "Buenos Aires, Argentina",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Currently, I hold a position as a semi-senior developer at Koibanx, a company specializing in integrating blockchain and Web3 technologies into the financial sector",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
-  },
+    date: "2019 - present",
+  }
 ] as const;
 
 export const projectsData = [
@@ -85,23 +85,26 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
   "JavaScript",
   "TypeScript",
+  "Node.js",
+  "Express",
+  "MongoDB",
+  "Jest",
+  "Docker",
+  "HTML",
+  "CSS",
   "React",
   "Next.js",
-  "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
   "PostgreSQL",
   "Python",
-  "Django",
-  "Framer Motion",
+  "C",
+  "C++",
+  "Java",
+  "R",
+  "Haskell",
+  "Smalltalk",
+  "Prolog"
 ] as const;
